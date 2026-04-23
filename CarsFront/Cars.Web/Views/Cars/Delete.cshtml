@@ -1,0 +1,46 @@
+@model Cars.Web.Models.CarDto
+
+<section class="section">
+    <div class="container is-max-desktop">
+
+        <div class="card">
+            <div class="card-content">
+
+                <!-- Header -->
+                <div class="has-text-centered mb-5">
+                    <h1 class="title is-4 has-text-danger">
+                        ⚠️ Eliminar Vehículo
+                    </h1>
+                    <p class="subtitle is-6 has-text-grey">
+                        Esta acción no se puede deshacer
+                    </p>
+                </div>
+
+                <!-- Info -->
+                <div class="notification is-light">
+                    <strong>@Model.Brand @Model.Model</strong><br />
+                    Año: @Model.Year
+                </div>
+
+                <!-- Confirm -->
+                <form asp-action="DeleteConfirmed" method="post">
+                    <input type="hidden" asp-for="Id" />
+
+                    <div class="is-flex is-justify-content-space-between mt-5">
+
+                        <a href="/Cars" class="button is-light">
+                            Cancelar
+                        </a>
+
+                        <button type="submit" class="button is-danger">
+                            🗑️ Sí, eliminar
+                        </button>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</section>

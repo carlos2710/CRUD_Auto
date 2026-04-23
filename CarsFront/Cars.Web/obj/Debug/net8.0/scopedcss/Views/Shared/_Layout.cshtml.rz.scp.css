@@ -1,0 +1,13 @@
+.layout-body[b-zpve84j3zf] {
+    min-height: 100vh;
+}
+
+.layout-wrapper[b-zpve84j3zf] {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout-content[b-zpve84j3zf] {
+    flex: 1;
+}

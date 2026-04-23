@@ -1,0 +1,68 @@
+@model List<Cars.Web.Models.CarDto>
+
+<section class="section">
+    <div class="container">
+
+        <div class="level">
+            <div class="level-left">
+                <h1 class="title">🚗 Cars</h1>
+            </div>
+
+            <div class="level-right">
+                <a class="button is-primary" href="/Cars/Create">
+                    ➕ Nuevo
+                </a>
+            </div>
+        </div>
+
+        <div class="table-container">
+            <table class="table is-striped is-hoverable is-fullwidth is-bordered">
+                <thead class="has-background-light">
+                    <tr>
+                        <th>Marca</th>
+                        <th>Modelo</th>
+                        <th>Año</th>
+                        <th>Tipo</th>
+                        <th>Asientos</th>
+                        <th>Color</th>
+                        <th>Combustible</th>
+                        <th>Transmision</th>
+                        <th>Precio</th>
+                        <th class="has-text-centered">Acciones</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                @foreach (var car in Model)
+                {
+                    <tr>
+                        <td>@car.Brand</td>
+                        <td>@car.Model</td>
+                        <td>@car.Year</td>
+                        <td>@car.VehicleType</td>
+                        <td>@car.Seats</td>
+                        <td>@car.Color</td>
+                        <td>@car.FuelType</td>
+                        <td>@car.Transmission</td>
+                        <td>S/ @car.Price</td>
+
+                        <td class="has-text-centered">
+                            <a class="button is-small is-info"
+                               href="/Cars/Edit/@car.Id">
+                                Modificar
+                            </a>
+
+                            <a class="button is-small is-danger"
+                               href="/Cars/Delete/@car.Id">
+                                Eliminar
+                            </a>
+                        </td>
+                    </tr>
+                }
+                </tbody>
+
+            </table>
+        </div>
+
+    </div>
+</section>

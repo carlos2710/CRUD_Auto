@@ -1,0 +1,138 @@
+@model Cars.Web.Models.CarDto
+
+<section class="section">
+    <div class="container is-max-desktop">
+
+        <!-- Header -->
+        <div class="mb-6 has-text-centered">
+            <h1 class="title is-2 has-text-weight-bold">
+                🚗 Nuevo Vehículo
+            </h1>
+            <p class="subtitle is-6 has-text-grey">
+                Completa la información del vehículo
+            </p>
+        </div>
+
+        <!-- Card -->
+        <div class="card has-shadow">
+            <div class="card-content">
+
+                <form asp-action="Create" method="post">
+
+                    <!-- SECTION: General -->
+                    <h2 class="title is-5 mb-4">Información General</h2>
+
+                    <div class="columns is-multiline">
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Marca</label>
+                                <div class="control has-icons-left">
+                                    <input class="input is-rounded" asp-for="Brand" placeholder="Toyota"/>
+                                    <span class="icon is-small is-left">🚘</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Modelo</label>
+                                <div class="control has-icons-left">
+                                    <input class="input is-rounded" asp-for="Model" placeholder="Corolla" />
+                                    <span class="icon is-small is-left">📛</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Año</label>
+                                <div class="control has-icons-left">
+                                    <input class="input is-rounded" asp-for="Year" type="number" min="1900" max="2100" />
+                                    <span class="icon is-small is-left">📅</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr />
+
+                    <!-- SECTION: Specs -->
+                    <h2 class="title is-5 mb-4">Características</h2>
+
+                    <div class="columns is-multiline">
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Tipo Vehículo</label>
+                                <input class="input is-rounded" asp-for="VehicleType" placeholder="Sedan / SUV" />
+                            </div>
+                        </div>
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Asientos</label>
+                                <input class="input is-rounded" asp-for="Seats" type="number" min="1" max="50" />
+                            </div>
+                        </div>
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Color</label>
+                                <input class="input is-rounded" asp-for="Color" placeholder="White" />
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="columns is-multiline">
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Tipo Combustible</label>
+                                <input class="input is-rounded" asp-for="FuelType" placeholder="Gasolina / Diesel" />
+                            </div>
+                        </div>
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Transmision</label>
+                                <input class="input is-rounded" asp-for="Transmission" placeholder="Automática / Manual" />
+                            </div>
+                        </div>
+
+                        <div class="column is-4">
+                            <div class="field">
+                                <label class="label">Precio</label>
+                                <div class="control has-icons-left">
+                                    <input class="input is-rounded" asp-for="Price" type="number" step="0.01" />
+                                    <span class="icon is-small is-left">💲</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <hr />
+
+                    <!-- Actions -->
+                    <div class="is-flex is-justify-content-space-between is-align-items-center mt-5">
+
+                        <a class="button is-light is-rounded" href="/Cars">
+                            ← Cancelar
+                        </a>
+
+                        <button class="button is-primary is-rounded has-text-weight-semibold">
+                            💾 Guardar Vehículo
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</section>
