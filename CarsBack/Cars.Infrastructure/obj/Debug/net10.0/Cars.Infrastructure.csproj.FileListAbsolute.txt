@@ -1,0 +1,16 @@
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\bin\Debug\net10.0\Cars.Infrastructure.deps.json
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\bin\Debug\net10.0\Cars.Infrastructure.dll
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\bin\Debug\net10.0\Cars.Infrastructure.pdb
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\bin\Debug\net10.0\Cars.Domain.dll
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\bin\Debug\net10.0\Cars.Domain.pdb
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.csproj.AssemblyReference.cache
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.AssemblyInfoInputs.cache
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.AssemblyInfo.cs
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.sourcelink.json
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Inf.3A286ABF.Up2Date
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.dll
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\refint\Cars.Infrastructure.dll
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\Cars.Infrastructure.pdb
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Infrastructure\obj\Debug\net10.0\ref\Cars.Infrastructure.dll

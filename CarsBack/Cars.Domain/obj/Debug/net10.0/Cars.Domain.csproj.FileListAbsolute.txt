@@ -1,0 +1,12 @@
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\bin\Debug\net10.0\Cars.Domain.deps.json
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\bin\Debug\net10.0\Cars.Domain.dll
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\bin\Debug\net10.0\Cars.Domain.pdb
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\Cars.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\Cars.Domain.AssemblyInfoInputs.cache
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\Cars.Domain.AssemblyInfo.cs
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\Cars.Domain.csproj.CoreCompileInputs.cache
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\Cars.Domain.sourcelink.json
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\Cars.Domain.dll
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\refint\Cars.Domain.dll
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\Cars.Domain.pdb
+D:\Proyectos\Innova BI\CRUD_Auto\CarsBack\Cars.Domain\obj\Debug\net10.0\ref\Cars.Domain.dll
